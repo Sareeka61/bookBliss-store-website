@@ -214,6 +214,11 @@ body {
       width: 100%;
    }
 
+   .comments-container {
+      display: flex;
+      flex-direction: column;
+   }
+
    #books-poster1 {
       display: none;
    }
@@ -417,7 +422,7 @@ body {
    color: white;
    font-size: 30px;
    text-decoration:underline;
-   margin: 40px;
+   margin: 70px;
 }
 
 .comments-container {
@@ -459,3 +464,57 @@ body {
    margin-bottom: 10px;
 }
 
+.container-five {
+   padding: 40px;
+   min-height: 400px; 
+   background-color: rgb(92,55,36);
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   background-image: linear-gradient(rgba(92, 55, 36, 0.5), rgba(92, 55, 36, 0.5)),url("assets/leaves.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+
+}
+
+.subscribe-title {
+   color: white;
+   font-size: 32px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.subscribe-brief {
+   max-width: 700px;
+   color: white;
+   margin-bottom: 40px;
+}
+
+#input-mail {
+   border: none;
+   height: 42px;
+   width: 300px;
+   padding: 10px;
+   border-radius: 4px;
+   box-shadow: 0 0 10px rgba(81, 50, 33, 0.9);
+}
+
+.btn-subscribe {
+   border: none;
+   padding: 11px;
+   border-radius: 6px;
+   background-color: rgb(91, 52, 33);
+   color: white;
+   font-size: 16px;
+   margin-left: -4px;
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(81, 50, 33, 0.6);
+}
+
+.btn-subscribe:hover {
+   border: 2px solid rgb(91, 52, 33);
+   color: rgb(91, 52, 33);
+   background-color: white;
+   transition: 0.5s;
+}
