@@ -10,14 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <div class="navbar">
         <img src="assets/bookblisslogo.png" width="210px" height="60px">
-        <div class="header-items">
-            <span class="pages" id="home">Home</span>
-            <span class="pages" id="about-us">About</span>
-            <span class="pages" id="items">Items</span>
-            <span class="pages" id="contact-us">Contact Us</span>
-            <button class="pages" id="shop">Buy</button>
+        <div class="navbar-items">
+            <ul>
+                <li><a href="#" class="pages" id="home">Home</a></li>
+                <li><a href="#" class="pages" id="items">Items</a></li>
+                <li><a href="#" class="pages" id="about-us">About</a></li>
+                <li><a href="#" class="pages" id="contact-us">Contact Us</a></li>
+                <button class="pages" id="shop">Buy</button>
+            </ul>
         </div>
     </div>
     <div class="container-one">
@@ -61,11 +63,93 @@
  </div>
 
  <div class="container-three">
-    <div class="title">
-        <span class="best-sellers">Best Sellers 2023</span>
-    </div>
-    <div class="slider">
-        
+        <h2 class="best-sellers">Best Sellers 2023</h2>
+        <button class="pre-btn"><img src="assets/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="assets/arrow.png" alt=""></button>
+    <div class="item-container">
+        <div id="item-card">
+            <div id="item-images">
+            <a href="#">
+                <img src="assets/book1.jpg" class="item-image">
+            </a>
+            <button class="card-btn">Add to wishlist</button>
+            </div>
+
+            <div class="item-info">
+            <span class="book-title">Verity</span>
+            <span class="price">$12</span>
+            </div>
+        </div>
+
+        <div id="item-card">
+            <div id="item-images">
+            <a href="#">
+                <img src="assets/book2.jpg" class="item-image">
+            </a>
+            <button class="card-btn">Add to wishlist</button>
+            </div>
+
+            <div class="item-info">
+                <span class="book-title">The Silent Patient</span>
+                <span class="price">$14</span>
+                </div>
+        </div>
+
+        <div id="item-card">
+            <div id="item-images">
+            <a href="#">
+                <img src="assets/book3.jpeg" class="item-image">
+            </a>
+            <button class="card-btn">Add to wishlist</button>
+            </div>
+
+            <div class="item-info">
+                <span class="book-title">Atomic Habits</span>
+                <span class="price">$9</span>
+                </div>
+        </div>
+
+        <div id="item-card">
+            <div id="item-images">
+            <a href="#">
+                <img src="assets/book4.jpg" class="item-image">
+            </a>
+            <button class="card-btn">Add to wishlist</button>
+            </div>
+
+            <div class="item-info">
+                <span class="book-title">Deep Work</span>
+                <span class="price">$10</span>
+                </div>
+        </div>
+
+        <div id="item-card">
+            <div id="item-images">
+            <a href="#">
+                <img src="assets/book5.jpg" class="item-image">
+            </a>
+            <button class="card-btn">Add to wishlist</button>
+            </div>
+
+            <div class="item-info">
+                <span class="book-title">Rich Dad Poor Dad</span>
+                <span class="price">$20</span>
+                </div>
+        </div>
+
+        <div id="item-card">
+            <div id="item-images">
+            <a href="#">
+                <img src="assets/book6.jpg" class="item-image">
+            </a>
+            <button class="card-btn">Add to wishlist</button>
+            </div>
+
+            <div class="item-info">
+                <span class="book-title">Stillness is the Key</span>
+                <span class="price">$19</span>
+                </div>
+        </div>
     </div>
  </div>
 
